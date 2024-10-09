@@ -1,6 +1,6 @@
 import { FC, DetailedHTMLProps, HTMLAttributes } from 'react'
-import { Header } from './components'
 import { Outlet } from 'react-router'
+import Header from '~/components/Header/Header'
 import cn from 'classnames'
 import styles from './Layout.module.scss'
 

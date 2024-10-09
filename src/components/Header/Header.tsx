@@ -1,7 +1,7 @@
 import { FC, DetailedHTMLProps, HTMLAttributes } from 'react'
 import cn from 'classnames'
 import styles from './Header.module.scss'
-import logo from '../../../assets/img/logo.png'
+import logo from '../../assets/img/logo.png'
 
 interface IHeaderProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLHeadElement>, HTMLHeadElement> {
